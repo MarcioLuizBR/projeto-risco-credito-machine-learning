@@ -74,17 +74,33 @@ projeto-risco-credito-machine-learning/
 │
 ├── imagens/
 │   ├── graficos_eda/
-│   ├── matriz_confusao_knn.png
-│   └── matriz_confusao_arvore.png
+│   │   ├── boxplot_cb_person_cred_hist_length.png
+│   │   ├── boxplot_loan_amnt.png
+│   │   ├── boxplot_loan_int_rate.png
+│   │   ├── boxplot_loan_percent_income.png
+│   │   ├── boxplot_person_age.png
+│   │   ├── boxplot_person_emp_length.png
+│   │   ├── boxplot_person_income.png
+│   │   ├── comparacao_acuracia_treino_teste.png
+│   │   ├── distribuicao_variavel_alvo.png
+│   │   ├── histograma_loan_amnt.png
+│   │   ├── histograma_loan_int_rate.png
+│   │   ├── histograma_person_age.png
+│   │   ├── histograma_person_income.png
+│   │   └── mapa_calor_correlacao_pearson.png
+│   │
+│   ├── matriz_confusao_arvore.png
+│   └── matriz_confusao_knn.png
 │
 ├── notebooks/
 │   └── pipeline_risco_credito.ipynb
 │
+├── .gitattributes
 ├── .gitignore
 ├── pyproject.toml
+├── README.md
 ├── requirements.txt
-├── uv.lock
-└── README.md
+└── uv.lock
 ```
 
 ---
